@@ -5,3 +5,8 @@ export default function(context) {
     }
   }
   
+// module.exports = {
+//   router: {
+//     middleware: 'auth'
+//   }  
+// }

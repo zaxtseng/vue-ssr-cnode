@@ -1,6 +1,6 @@
 const middleware = {}
 
-middleware['redirect'] = require('..\\middleware\\redirect.js')
-middleware['redirect'] = middleware['redirect'].default || middleware['redirect']
+middleware['auth'] = require('..\\middleware\\auth.js')
+middleware['auth'] = middleware['auth'].default || middleware['auth']
 
 export default middleware

@@ -49,6 +49,9 @@ module.exports = {
   */
   axios: {
   },
+  router: {
+    middleware: 'auth'
+  },
   /*
   ** Build configuration
   */
